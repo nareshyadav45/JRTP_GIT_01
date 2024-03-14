@@ -1,0 +1,9 @@
+package com.mavne.quickstart;
+
+public class Standalone_Maven {
+	public static void main(String[] args) {
+		System.out.println("java ");
+		System.out.println(5/2);
+	}
+
+}

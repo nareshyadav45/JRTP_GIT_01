@@ -1,0 +1,62 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.standlone</groupId>
+	<artifactId>Java_Mavne_Standlone_App</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+     <!-- <repositories>
+		 <repository>
+			 <id>nexus</id>
+			 <url>http://43.205.146.33:8081/repositry/jrpt</url>
+		 </repository>
+	 </repositories>-->
+    
+    
+    <!-- Configuration related to upload project in remote repository-->
+   <!--  <distributionManagement>
+		<repository>
+			<id>nexus</id>
+			<name>Releases Nexus Repo</name>
+			<url>httP://13.233:8081/repository/release</url>
+		</repository>
+		<snapshotRepository>
+			<id>nexus</id>
+			<name>Snapshot Nexus Repo </name>
+			<url>httP://13.233:8081/repository/snapshot</url>
+		</snapshotRepository>
+	</distributionManagement>-->
+	<dependencies>
+		<!--
+		https://mvnrepository.com/artifact/org.springframework/spring-context -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>5.3.29</version>
+			<exclusions>
+				<exclusion>
+					<groupId>org.springframework</groupId>
+					<artifactId>spring-aop</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>org.springframework</groupId>
+					<artifactId>spring-core</artifactId>
+				</exclusion>
+			</exclusions>
+		
+		</dependency>
+		
+		<!-- <dependency>
+			<groupId>com.jrpt.learning</groupId>
+			<artifactId>pwd-utils</artifactId>
+			<version>1.0</version>
+		</dependency>-->
+		
+
+	</dependencies>
+
+	<build>
+		<finalName>My-First-Maven-App-QuickStart</finalName>
+	</build>
+</project>
