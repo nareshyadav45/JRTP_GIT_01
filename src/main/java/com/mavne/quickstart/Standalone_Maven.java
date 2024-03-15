@@ -12,6 +12,7 @@ public class Standalone_Maven {
 		Double d=10.0;
 
 float f=10.f;
+		char c='c';
 
                                      
 	}
