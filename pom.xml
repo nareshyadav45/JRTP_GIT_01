@@ -48,11 +48,11 @@
 		
 		</dependency>
 		
-		<!-- <dependency>
+		 <dependency>
 			<groupId>com.jrpt.learning</groupId>
 			<artifactId>pwd-utils</artifactId>
 			<version>1.0</version>
-		</dependency>-->
+		</dependency>
 		
 
 	</dependencies>
