@@ -9,6 +9,7 @@ public class Standalone_Maven {
 
 									   String s="abc";
                                    		int i=10;
+		Double d=10.0;
 
 float f=10.f;
 
