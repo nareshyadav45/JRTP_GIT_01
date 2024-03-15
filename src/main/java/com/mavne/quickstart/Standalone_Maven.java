@@ -10,7 +10,7 @@ public class Standalone_Maven {
 									   String s="abc";
                                    		int i=10;
 
-
+float f=10.f;
 
                                      
 	}
