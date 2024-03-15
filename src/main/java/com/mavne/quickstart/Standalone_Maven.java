@@ -6,7 +6,10 @@ public class Standalone_Maven {
 		System.out.println(5/2);
                                    System.out.println("new line added");
                                        System.out.println("another new line added");
+
 									   String s="abc";
+                                   		int i=10;
+
 
 
                                      
