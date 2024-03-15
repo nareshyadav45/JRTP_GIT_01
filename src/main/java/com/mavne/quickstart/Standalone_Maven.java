@@ -13,7 +13,13 @@ public class Standalone_Maven {
 
 float f=10.f;
 
-                                     
+             
+
+
+
+
+
+   boolean b=true;			 
 	}
 
 }
