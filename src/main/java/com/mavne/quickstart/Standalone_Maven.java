@@ -20,7 +20,13 @@ float f=10.f;
 
 
 
-   boolean b=true;			 
-	}
+   boolean b=true;
+
+
+
+
+		int i=10;
+			
+			}
 
 }
