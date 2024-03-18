@@ -18,7 +18,7 @@ float f=10.f;
 
 
 
-
+String ss="";
 
    boolean b=true;			 
 	}
