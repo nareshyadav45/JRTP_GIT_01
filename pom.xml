@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.standlone</groupId>
 	<artifactId>Java_Mavne_Standlone_App</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>RELEASE</version>
 
      <!-- <repositories>
 		 <repository>
@@ -34,7 +34,7 @@
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
 			<version>5.3.25</version>
-			<scope>runtime</scope>
+			<scope>test</scope>
 			<exclusions>
 				<exclusion>
 					<groupId>org.springframework</groupId>
